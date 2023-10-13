@@ -7,7 +7,7 @@ jobs:
   build-io:
     name: IO Deployment
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 20
     steps:
       - name: Create tag
         id: docker_tag
