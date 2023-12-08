@@ -81,3 +81,6 @@ RedisInsight includes an opt-in telemetry system, that is leveraged to help impr
 
 RedisInsight is licensed under [SSPL](/LICENSE) license.
 
+## Creating a Container Image
+The Github action will run when there is a commit to the `main` branch.  Update the Github action to push the image to your desired repo.
+
